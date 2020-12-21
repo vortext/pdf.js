@@ -34,7 +34,7 @@ const defaultOptions = {
   },
   defaultUrl: {
     /** @type {string} */
-    value: "compressed.tracemonkey-pldi-09.pdf",
+    value: "",
     kind: OptionKind.VIEWER,
   },
   defaultZoomValue: {
@@ -72,7 +72,7 @@ const defaultOptions = {
   },
   enableWebGL: {
     /** @type {boolean} */
-    value: false,
+    value: true,
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE,
   },
   externalLinkRel: {
@@ -92,7 +92,7 @@ const defaultOptions = {
   },
   ignoreDestinationZoom: {
     /** @type {boolean} */
-    value: false,
+    value: true,
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE,
   },
   imageResourcesPath: {
