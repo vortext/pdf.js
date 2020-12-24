@@ -131,7 +131,7 @@ const defaultOptions = {
   },
   sidebarViewOnLoad: {
     /** @type {number} */
-    value: -1,
+    value: 1,
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE,
   },
   scrollModeOnLoad: {
@@ -141,7 +141,7 @@ const defaultOptions = {
   },
   spreadModeOnLoad: {
     /** @type {number} */
-    value: -1,
+    value: 1,
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE,
   },
   textLayerMode: {
