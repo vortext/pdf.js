@@ -44,7 +44,7 @@ const defaultOptions = {
   },
   disableHistory: {
     /** @type {boolean} */
-    value: false,
+    value: true,
     kind: OptionKind.VIEWER,
   },
   disablePageLabels: {
@@ -72,7 +72,7 @@ const defaultOptions = {
   },
   enableWebGL: {
     /** @type {boolean} */
-    value: false,
+    value: true,
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE,
   },
   externalLinkRel: {
@@ -131,22 +131,22 @@ const defaultOptions = {
   },
   sidebarViewOnLoad: {
     /** @type {number} */
-    value: 1,
+    value: 0,
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE,
   },
   scrollModeOnLoad: {
     /** @type {number} */
-    value: -1,
+    value: 2,
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE,
   },
   spreadModeOnLoad: {
     /** @type {number} */
-    value: 1,
+    value: 0,
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE,
   },
   textLayerMode: {
     /** @type {number} */
-    value: 1,
+    value: 2,
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE,
   },
   useOnlyCssZoom: {
