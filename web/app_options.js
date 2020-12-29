@@ -72,7 +72,7 @@ const defaultOptions = {
   },
   enableWebGL: {
     /** @type {boolean} */
-    value: true,
+    value: false,
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE,
   },
   externalLinkRel: {
