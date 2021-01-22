@@ -72,7 +72,7 @@ const defaultOptions = {
   },
   enableWebGL: {
     /** @type {boolean} */
-    value: false,
+    value: true,
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE,
   },
   externalLinkRel: {
@@ -136,7 +136,7 @@ const defaultOptions = {
   },
   scrollModeOnLoad: {
     /** @type {number} */
-    value: 2,
+    value: 0,
     kind: OptionKind.VIEWER + OptionKind.PREFERENCE,
   },
   spreadModeOnLoad: {
